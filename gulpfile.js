@@ -36,7 +36,7 @@ function fnJS(){
 function fnSass(){
     return src('./src/sass/*.scss')
     .pipe(sass({outputStyle: 'expanded'}))
-    .pipe(cssnano())
+    // .pipe(cssnano())
     .pipe(rename({suffix : '.min'}))
     .pipe(dest('./dist/css'));
 }
