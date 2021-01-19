@@ -1,0 +1,468 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+.container {
+  width: 1350px;
+  margin: 0 auto;
+}
+
+.container_fiuld {
+  width: 100%;
+}
+
+.pub-footer {
+  background-image: url("../img/publicImg/footer_message_bg.jpg");
+  font-size: 12px;
+}
+
+.pub-footer a:hover {
+  text-decoration: underline;
+}
+
+.pub-footer .footer_top ul {
+  overflow: hidden;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.pub-footer .footer_top ul li {
+  overflow: hidden;
+  float: left;
+  width: 260px;
+  margin-left: 10px;
+  line-height: 26px;
+}
+
+.pub-footer .footer_top ul li img {
+  float: left;
+  margin-right: 5px;
+}
+
+.pub-footer .footer_top ul li strong {
+  color: black;
+  display: inline-block;
+  margin-top: 7px;
+}
+
+.pub-footer .footer_top ul li a {
+  color: #333333;
+}
+
+.pub-footer .footer_cen {
+  padding-top: 30px;
+  height: 264px;
+}
+
+.pub-footer .footer_cen dl {
+  float: left;
+  width: 168px;
+  margin-left: 23px;
+}
+
+.pub-footer .footer_cen dl dt {
+  color: #000000;
+  font-weight: bold;
+  line-height: 12px;
+  margin-bottom: 30px;
+}
+
+.pub-footer .footer_cen dl dd {
+  color: #333333;
+  line-height: 27px;
+}
+
+.pub-footer .footer_cen dl dd a {
+  color: black;
+}
+
+.pub-footer .footer_btm p {
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+
+.pub-footer .footer_btm p a {
+  color: white;
+  padding: 0 9px;
+}
+
+.pub-footer .footer_btm p span a {
+  padding: 0;
+}
+
+.pub-footer .footer_btm p:first-child {
+  margin-top: 10px;
+}
+
+.pub-footer .footer_btm p:last-child {
+  line-height: 0;
+  padding-bottom: 11px;
+}
+
+.btm_adv {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.btm_adv .adv_content {
+  position: relative;
+}
+
+.btm_adv .adv_content img {
+  width: 100%;
+}
+
+.btm_adv .adv_content span {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 33px;
+  top: 10px;
+  z-index: 10;
+}
+
+.sidebar {
+  width: 264px;
+  height: 100%;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  background: white;
+  padding: 0 15px;
+  position: fixed;
+  top: 0;
+  right: -296px;
+  color: #555555;
+}
+
+.sidebar .tit_sidebar {
+  margin: 8px 0 165px;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 18px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.sidebar .tit_sidebar img {
+  float: right;
+  margin-top: 12px;
+}
+
+.sidebar .bag_sidebar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar p {
+  text-align: center;
+  line-height: 25px;
+}
+
+.sidebar span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #333333;
+  margin-bottom: 1px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  position: relative;
+}
+
+.sidebar span i {
+  position: absolute;
+  left: -120px;
+  top: 0;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: white;
+  font-style: normal;
+  display: none;
+}
+
+.sidebar span i img {
+  width: 120px;
+}
+
+.sidebar span i a {
+  color: #555555;
+}
+
+.sidebar span b {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  left: -8px;
+  top: 3px;
+  display: none;
+}
+
+.sidebar .top_sidebar {
+  position: absolute;
+  left: -42px;
+  top: 30%;
+}
+
+.sidebar .top_sidebar span:first-child {
+  background: #333333 url("../img/publicImg/share02.png") 416px -155px;
+}
+
+.sidebar .top_sidebar span:nth-child(2) {
+  background: #333333 url("../img/publicImg/share02.png") 364px -152px;
+}
+
+.sidebar .top_sidebar span:nth-child(3) {
+  background: #333333 url("../img/publicImg/share02.png") 302px -152px;
+}
+
+.sidebar .top_sidebar span:nth-child(4) {
+  background: #333333 url("../img/publicImg/share02.png") 245px -159px;
+}
+
+.sidebar .top_sidebar span:first-child:hover {
+  background: #c69c6d url("../img/publicImg/share02.png") 416px -120px;
+}
+
+.sidebar .top_sidebar span:nth-child(2):hover {
+  background: #c69c6d url("../img/publicImg/share02.png") 363px -122px;
+}
+
+.sidebar .top_sidebar span:nth-child(3):hover {
+  background: #c69c6d url("../img/publicImg/share02.png") 301px -123px;
+}
+
+.sidebar .top_sidebar span:nth-child(4):hover {
+  background: #c69c6d url("../img/publicImg/share02.png") 245px -123px;
+}
+
+.sidebar .btm_sidebar {
+  position: absolute;
+  left: -42px;
+  bottom: 30px;
+}
+
+.sidebar .btm_sidebar span:first-child {
+  background: #333333 url("../img/publicImg/share02.png") 193px -152px;
+}
+
+.sidebar .btm_sidebar span:nth-child(2) {
+  background: #333333 url("../img/publicImg/share02.png") 130px -154px;
+}
+
+.sidebar .btm_sidebar span:nth-child(3) {
+  background: #333333 url("../img/publicImg/line_bg.png") 12px 11px;
+}
+
+.sidebar .btm_sidebar span:nth-child(4) {
+  background: #333333 url("../img/publicImg/share02.png") 67px -150px;
+}
+
+.sidebar .btm_sidebar span:first-child:hover {
+  background: #c69c6d url("../img/publicImg/share02.png") 193px -121px;
+}
+
+.sidebar .btm_sidebar span:nth-child(2):hover {
+  background: #c69c6d url("../img/publicImg/share02.png") 129px -122px;
+}
+
+.sidebar .btm_sidebar span:nth-child(3):hover {
+  background: #c69c6d url("../img/publicImg/line_bg.png") 12px -17px;
+}
+
+.sidebar .btm_sidebar span:nth-child(4):hover {
+  background: #c69c6d url("../img/publicImg/share02.png") 68px -121px;
+}
+
+header {
+  overflow: hidden;
+}
+
+header a {
+  float: left;
+}
+
+header h3 {
+  float: left;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 14px 20px;
+  color: #999999;
+  border-left: 2px solid #cccccc;
+  margin-top: 30px;
+  margin-left: 22px;
+  font-weight: normal;
+}
+
+header .headre_hot {
+  float: right;
+}
+
+header .headre_hot img {
+  vertical-align: middle;
+}
+
+header .headre_hot span {
+  font-size: 14px;
+  line-height: 110px;
+  color: #666666;
+  vertical-align: middle;
+}
+
+main {
+  background: #262626;
+}
+
+main .big_box {
+  font-size: 0;
+  overflow: hidden;
+  background: url("../img/registerImg/login_background1.jpg") no-repeat;
+}
+
+main .big_box .small_box {
+  width: 382px;
+  padding: 34px;
+  padding-bottom: 0;
+  font-size: 14px;
+  color: #757575;
+  background: white;
+  float: right;
+  margin: 34px 100px 32px 0;
+}
+
+main .big_box .small_box h3 {
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+  font-weight: normal;
+  color: black;
+  overflow: hidden;
+}
+
+main .big_box .small_box h3 span {
+  float: left;
+  width: 49%;
+}
+
+main .big_box .small_box h3 span:first-child {
+  border-right: 2px solid #757575;
+}
+
+main .big_box .small_box .account_login {
+  padding-top: 36px;
+}
+
+main .big_box .small_box .account_login input {
+  width: 381px;
+  text-indent: 22px;
+  border: 1px solid #cccccc;
+  padding: 20px 0;
+  margin-bottom: 16px;
+  outline: none;
+}
+
+main .big_box .small_box .account_login .error_warn {
+  line-height: 20px;
+  margin-bottom: 18px;
+  vertical-align: middle;
+  color: red;
+  visibility: hidden;
+}
+
+main .big_box .small_box .account_login .error_warn img {
+  vertical-align: middle;
+}
+
+main .big_box .small_box .account_login #login_btn {
+  width: 383px;
+  height: 57px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  background: #333333;
+  text-align: center;
+  margin-bottom: 23px;
+  outline: none;
+}
+
+main .big_box .small_box .account_login p:last-child {
+  text-align: center;
+  line-height: 14px;
+  vertical-align: top;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+main .big_box .small_box .account_login p:last-child #agree {
+  width: 16px;
+  position: absolute;
+  left: 14px;
+  top: -2px;
+}
+
+main .big_box .small_box .account_login p:last-child #disagree {
+  width: 16px;
+  position: absolute;
+  left: 14px;
+  top: -2px;
+  display: none;
+}
+
+main .big_box .small_box .account_login p:last-child span:last-child {
+  float: right;
+}
+
+main .big_box .small_box .account_login p:last-child span:last-child a {
+  float: left;
+  color: #757575;
+}
+
+main .big_box .small_box .account_login p:last-child span:last-child a:first-child {
+  color: #ff9900;
+  float: right;
+  margin-right: 6px;
+}
+
+main .big_box .small_box .other_login img {
+  width: 100%;
+}
+
+main .big_box .small_box .other_login li {
+  float: left;
+  padding: 10px 20px;
+}
+
+main .big_box .small_box .other_login li a img {
+  width: 40px;
+}
+
+main .big_box .small_box .other_login li a img:last-child {
+  display: none;
+}
+
+main .big_box .small_box .other_login li:first-child {
+  margin-left: 75px;
+}

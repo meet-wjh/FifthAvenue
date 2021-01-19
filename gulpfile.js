@@ -20,7 +20,7 @@ function fnCopyIndex(){
     .pipe(dest('./dist/'))
 }
 function fnImage(){
-    return src('./src/images/**/*')
+    return src('./src/img/**/*')
     .pipe(imagemin())
     .pipe(dest('./dist/img'))
 }

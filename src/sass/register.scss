@@ -83,7 +83,11 @@ main{
                 margin-bottom: 23px;
                 outline: none;
             }
-            .cp_warn{
+            #reg_btn:hover{
+                background: #a60000;
+                transition: all linear 0.5s;
+            }
+            .cp_warn,.affirm_psd_warn{
                 line-height: 20px;
                 margin-bottom: 18px;
                 vertical-align: middle;
@@ -109,9 +113,19 @@ main{
                 text-align: center;
                 line-height: 14px;
                 vertical-align: top;
-                img{
+                position: relative;
+                #agree{
                     width: 16px;
-                    vertical-align: top;
+                    position: absolute;
+                    left: 14px;
+                    top: -2px;
+                }
+                #disagree{
+                    width: 16px;
+                    position: absolute;
+                    left: 14px;
+                    top: -2px;
+                    display: none;
                 }
                 a{
                     color: #333333;
