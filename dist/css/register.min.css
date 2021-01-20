@@ -20,6 +20,11 @@ img {
   border: none;
 }
 
+.ctn_1210 {
+  width: 1210px;
+  margin: 0 auto;
+}
+
 .container {
   width: 1350px;
   margin: 0 auto;
@@ -27,6 +32,51 @@ img {
 
 .container_fiuld {
   width: 100%;
+}
+
+.pub_header .header_adv {
+  background: #4200de;
+  font-size: 0;
+}
+
+.pub_header .header_adv a {
+  cursor: pointer img;
+  cursor-width: 100%;
+}
+
+.pub_header .header_cut {
+  background: #f2f2f2;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.pub_header .header_cut a {
+  color: #666666;
+}
+
+.pub_header .header_cut dl {
+  display: inline-block;
+}
+
+.pub_header .header_cut .header_home {
+  width: 120px;
+}
+
+.pub_header .header_cut .header_home i {
+  display: inline-block;
+  margin-left: 2px;
+  width: 16px;
+  height: 14px;
+  background: url(../img/publicImg/home.png) no-repeat center;
+}
+
+.pub_header .header_cut .header_home b {
+  margin-left: 12px;
+  display: inline-block;
+  height: 12px;
+  border-left: 1px solid #dfdfdf;
 }
 
 .pub-footer {
@@ -394,11 +444,6 @@ main .big_box .small_box #reg_btn {
   text-align: center;
   margin-bottom: 23px;
   outline: none;
-}
-
-main .big_box .small_box #reg_btn:hover {
-  background: #a60000;
-  transition: all linear 0.5s;
 }
 
 main .big_box .small_box .cp_warn, main .big_box .small_box .affirm_psd_warn {

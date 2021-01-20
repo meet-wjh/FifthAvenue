@@ -15,6 +15,17 @@ class Register{
             $('#agree').css('display','block');
             $('#reg_btn').removeAttr("disabled").css('background','#333333');
         });
+        $('#reg_btn').hover(function(){
+            $(this).css({
+                'background' : '#a60000',
+                'transition' : 'all linear 0.5s',
+            });
+        },function(){
+            $(this).css({
+                'background' : '#333333',
+                'transition' : 'all linear 1s',
+            })
+        })
        
         let that = this;
         $('input').each(function(){

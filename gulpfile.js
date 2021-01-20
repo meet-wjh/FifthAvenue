@@ -45,7 +45,7 @@ function fnWatch(){
     watch('./src/index.html',fnCopyIndex);
     watch('./src/images/**/*',fnImage);
     watch('./src/js/*.js',fnJS);
-    watch('./sass/*.scss',fnSass);
+    watch('./src/sass/*.scss',fnSass);
 }
 
 //导出模块

@@ -57,13 +57,47 @@ main{
                     float: left;
                     width: 49%;
                 }
-                span:first-child{
-                    border-right: 2px solid #757575;
+                span:last-child{
+                    border-left: 2px solid #757575;
+                    color: #999999;
+                }
+            }
+            .scan_login{
+                height: 378px;
+                overflow: hidden;
+                .big_scan_photo{
+                    margin-top: 60px;
+                    width: 100%;
+                    text-align: center;
+                    .scan_photo{
+                        display: inline;
+                        img:first-child{
+                            padding-right: 20px;
+                        }
+                        img:last-child{
+                            // padding-left: 20px;
+                            height: 160px;
+                            display: none;
+                        }
+                    }
+                }
+                p{
+                    line-height: 24px;
+                    text-align: center;
+                    a{
+                        color: #ff9900;
+                    }
+                }
+                p:first-of-type{
+                    margin-top: 20px;
+                }
+                p:last-child{
+                    padding-bottom: 20px;
                 }
             }
             .account_login{
                 padding-top: 36px;
-
+                display: none;
                 input{
                     width: 381px;
                     text-indent: 22px;
@@ -77,10 +111,12 @@ main{
                     margin-bottom: 18px;
                     vertical-align: middle;
                     color: red;
+                    text-align: center;
                     visibility: hidden;
                     img{
                         vertical-align: middle;
                     }
+
                 }
                 #login_btn{
                     width: 383px;
@@ -94,6 +130,7 @@ main{
                     outline: none;
                 }
                 p:last-child{
+                    height: 16px;
                     text-align: center;
                     line-height: 14px;
                     vertical-align: top;
@@ -112,38 +149,47 @@ main{
                         top: -2px;
                         display: none;
                     }
-                    span:last-child{
+                    b{
+                        float: left;
+                        font-weight: normal;
+                        margin-left: 32px;
+                    }
+                    span{
                         float: right;
                         a{
                             float: left;
                             color: #757575;
+                            padding: 0 5px;
                         }
                         a:first-child{
                             color: #ff9900;
-                            float: right;
                             margin-right: 6px;
+                            border-right: 1px solid #757575;
                         }
                     }
                 }
             }
             .other_login{
+                overflow: hidden;
                 img{
                     width: 100%;
                 }
-                li{
-                    float: left;
-                    padding: 10px 20px;
-                    a{
-                        img{
-                            width: 40px;
-                        }
-                        img:last-child{
-                            display: none;
+                ul{
+                    li{
+                        float: left;
+                        padding: 10px 20px;
+                        a{
+                            img{
+                                width: 40px;
+                            }
+                            img:last-child{
+                                display: none;
+                            }
                         }
                     }
-                }
-                li:first-child{
-                    margin-left: 75px;
+                    li:first-child{
+                        margin-left: 75px;
+                    }
                 }
             }
         }
